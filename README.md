@@ -24,3 +24,9 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+Some things I've done.
+
+#### Kop
+- [Denovo1998/starlight-for-kafka#1]([https://github.com/apache/pulsar/pull/12345](https://github.com/Denovo1998/starlight-for-kafka/pull/1)) — Adds Netty leak detection reporting to CI and local tests
+
