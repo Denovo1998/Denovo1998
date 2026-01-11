@@ -31,6 +31,8 @@ Here are some ideas to get you started:
 * [apache/pulsar#24370](https://github.com/apache/pulsar/pull/24370), [apache/pulsar#23907](https://github.com/apache/pulsar/pull/23907) `improve` `pip` `broker` — **PIP-423: Admin API to acknowledge a single message**
 * [apache/pulsar#23895](https://github.com/apache/pulsar/pull/23895), [apache/pulsar#23896](https://github.com/apache/pulsar/pull/23896) `improve` `pip` `client` — **PIP-405: Enhanced dynamic handling of selective consumers in MultiTopicConsumers**
 * [apache/pulsar#23143](https://github.com/apache/pulsar/pull/23143), [apache/pulsar#23194](https://github.com/apache/pulsar/pull/23194) `improve` `pip` `broker` — **PIP-371: Support for request-reply model (RPC calls)**
+* [apache/pulsar#19566](https://github.com/apache/pulsar/pull/19566) `improve` `broker` — **PIP-246: Improve PROTOBUF_NATIVE schema compatibility checks (no avro-protobuf)**
+* [apache/pulsar#17449](https://github.com/apache/pulsar/pull/17449) `fix` `broker` — **PIP-236: Fix schema-based consumer creation failure after AUTO_CONSUME subscribe**
 
 #### Broker / Managed Ledger
 * [apache/pulsar#24739](https://github.com/apache/pulsar/pull/24739) `improve` `broker` — **Optimize fine-grained concurrency control for BucketDelayedDeliveryTracker**
@@ -38,12 +40,7 @@ Here are some ideas to get you started:
 * [apache/pulsar#23609](https://github.com/apache/pulsar/pull/23609) `improve` `ml` — **Avoid repetitive nested lock for `isMessageDeleted` in `ManagedCursorImpl`**
 * [apache/pulsar#20415](https://github.com/apache/pulsar/pull/20415) `improve` `broker` — **Supplement schema ledger if schema ledger is lost**
 * [apache/pulsar#19753](https://github.com/apache/pulsar/pull/19753) `cleanup` `broker` — **Remove duplicate code in SchemaRegistryServiceImpl (schema checks)**
-* [apache/pulsar#19566](https://github.com/apache/pulsar/pull/19566) `improve` `broker` — **PIP-246: Improve PROTOBUF_NATIVE schema compatibility checks (no avro-protobuf)**
-* [apache/pulsar#17449](https://github.com/apache/pulsar/pull/17449) `fix` `broker` — **PIP-236: Fix schema-based consumer creation failure after AUTO_CONSUME subscribe**
 * [apache/pulsar#24770](https://github.com/apache/pulsar/pull/24770) `fix` `broker` — **Flaky-test: ExtensibleLoadManagerImplTest.testDisableBroker**
-
-#### Client
-* [apache/pulsar#23794](https://github.com/apache/pulsar/pull/23794) `improve` `client` — **Enhance dynamic topic subscription management in PatternMultiTopicsConsumer**
 
 #### Stability / Tests / Build
 * [apache/pulsar#24875](https://github.com/apache/pulsar/pull/24875) `fix` `test` — **Stabilize FunctionAssignmentTailerTest.testErrorNotifier (CountDownLatch sync)**
