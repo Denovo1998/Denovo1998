@@ -53,13 +53,15 @@ Here are some ideas to get you started:
 * [apache/pulsar#21634](https://github.com/apache/pulsar/pull/21634) `fix` `test` — **Fix unload topic + compaction task failure after task triggered**
 
 
+### KoP (Denovo1998/starlight-for-kafka)
+* [datastax/starlight-for-kafka#124](https://github.com/datastax/starlight-for-kafka/pull/124) `improve` `ci` `netty` — **Add Netty leak detection reporting to CI and local tests**
+* [datastax/starlight-for-kafka#126](https://github.com/datastax/starlight-for-kafka/pull/126) `improve` `entryFormatter` — **Reduce allocations in PulsarEntryFormatter batch encoding**
+* [datastax/starlight-for-kafka#127](https://github.com/datastax/starlight-for-kafka/pull/127) `fix` `bug` `netty` — **Complete ResponseCallbackWrapper on encoding failure**
+
+
 ### pulsar-java-contrib (apache/pulsar-java-contrib)
 * [apache/pulsar-java-contrib#6](https://github.com/apache/pulsar-java-contrib/pull/6) `improve` `pcip` — **PCIP-2: Distributed RPC framework implemented by the Pulsar client**
 * [apache/pulsar-java-contrib#12](https://github.com/apache/pulsar-java-contrib/pull/12) `improve` `pcip` — **PCIP-4: Improve delayed RPC message handling in pulsar-rpc**
-
-
-### KoP (Denovo1998/starlight-for-kafka)
-* [Denovo1998/starlight-for-kafka#1](https://github.com/Denovo1998/starlight-for-kafka/pull/1) `improve` `ci` `netty` — **Add Netty leak detection reporting to CI and local tests**
 
 
 ### pulsar-helm-chart (apache/pulsar-helm-chart)
