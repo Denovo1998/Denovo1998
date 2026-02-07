@@ -51,12 +51,14 @@ Here are some ideas to get you started:
 * [apache/pulsar#22500](https://github.com/apache/pulsar/pull/22500) `fix` `test` — **Fix SchemaMap reuse in AutoConsumeSchema**
 * [apache/pulsar#21979](https://github.com/apache/pulsar/pull/21979) `fix` `build` — **Remove duplicate mapping key in docker-compose yaml**
 * [apache/pulsar#21634](https://github.com/apache/pulsar/pull/21634) `fix` `test` — **Fix unload topic + compaction task failure after task triggered**
+* [apache/pulsar#25227](https://github.com/apache/pulsar/pull/25227) `fix` `test` — **Fix Mockito stubbing race in TopicListServiceTest**
 
 
 ### KoP (Denovo1998/starlight-for-kafka)
 * [datastax/starlight-for-kafka#124](https://github.com/datastax/starlight-for-kafka/pull/124) `improve` `ci` `netty` — **Add Netty leak detection reporting to CI and local tests**
 * [datastax/starlight-for-kafka#126](https://github.com/datastax/starlight-for-kafka/pull/126) `improve` `entryFormatter` — **Reduce allocations in PulsarEntryFormatter batch encoding**
 * [datastax/starlight-for-kafka#127](https://github.com/datastax/starlight-for-kafka/pull/127) `fix` `bug` `netty` — **Complete ResponseCallbackWrapper on encoding failure**
+* [datastax/starlight-for-kafka#128](https://github.com/datastax/starlight-for-kafka/pull/128) `improve` `protocol` — **Add Kafka client quotas support in KoP**
 
 
 ### pulsar-java-contrib (apache/pulsar-java-contrib)
