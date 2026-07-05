@@ -6,20 +6,20 @@
 
 ---
 
-### NereusStream (nereusstream)
+## NereusStream (nereusstream)
 
 > 🧜‍♂️ **Disaggregated streaming, purpose-built for Apache Pulsar.**
 >
 > Stateless brokers. Shared object storage. One offset truth. No ZooKeeper, no BookKeeper bookies — just your object store and Oxia for coordination. The kind of streaming engine you wish Pulsar shipped with.
 
-#### Key ideas
+### Key ideas
 
 - **Stateless brokers** — add or remove nodes without partition reassignment or lag spikes
 - **Object storage as the data plane** — S3, MinIO, GCS. Zero local disk on brokers
 - **One canonical address** — `streamId + offset` replaces ledger IDs, entry IDs, and cursor bookkeeping
 - **Oxia for metadata** — linearizable, cloud-native coordination without ZooKeeper operational overhead
 
-#### What we're building
+### What we're building
 
 | Repo | What it is |
 |------|------------|
@@ -28,6 +28,8 @@
 | [kop](https://github.com/nereusstream/kop) | KoP fork — Kafka protocol on Nereus, no Pulsar required |
 
 ---
+
+## Mentioned PR
 
 ### Pulsar (apache/pulsar)
 
