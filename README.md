@@ -8,6 +8,8 @@
 
 ## NereusStream (nereusstream)
 
+https://nereusstream.com/
+
 > 🧜‍♂️ **Disaggregated streaming, purpose-built for Apache Pulsar.**
 >
 > Stateless brokers. Shared object storage. One offset truth. No ZooKeeper, no BookKeeper bookies — just your object store and Oxia for coordination. The kind of streaming engine you wish Pulsar shipped with.
